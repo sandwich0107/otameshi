@@ -1,24 +1,10 @@
-<script language = "JavaScript">
-function tokei()
-{
-dt = new Date();
-h = dt.getHours();
-m =dt.getMinutes();
-s =dt.getsSeconds();
-var str=h+"."+m+":"+s;
-document.title=str;
-document.myForm.myText.value=str;
-
-document.geElementByld("tokei").innerHTML=str;
- window.status=str;
-}
-</script>
+<script language = "JavaScript" src="apri_test.js"></script>
 
 <body onLoad="window.setInterval('tokei()',1000)">
 
 <form name="myForm">
-<>input type="text"name="myText">
+<!--- ><>input type="text"name="myText">< -->
 </form>
 
 <div id = "tokei">--:--:--</div>
-
+<!-- aaa -->
